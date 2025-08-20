@@ -14,7 +14,6 @@ This tool implements the hydrological classification framework described in Cost
 
 If you use this tool in your research, please cite the paper:
 
-Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., Oliveira, C.V., Alves, D.S., Fortkamp, G., Silva, W.F., Santos, R.F., Silva, A.C., Higuchi, P. (2025). Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges.
 
 ## Features
 
