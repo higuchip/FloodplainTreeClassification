@@ -1,6 +1,8 @@
 # ==============================================================================
 # SHINY APP - GROUNDWATER-BASED CLASSIFICATION OF FLOODPLAIN TREES
 # Companion App for: Costa et al. 
+# Copyright (c) 2025 Higuchi P.
+# Licensed under the MIT License
 # ==============================================================================
 
 # Load required libraries
@@ -118,7 +120,7 @@ ui <- dashboardPage(
             h3("About This Tool"),
             p("This application implements the classification framework described in:",
               strong("'Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges'")),
-            p("Published in ____"),
+            p("Published in Wetlands Ecology and Management"),
             
             br(),
             
@@ -585,7 +587,7 @@ ui <- dashboardPage(
             div(style = "background-color: #f0f0f0; padding: 10px; border-left: 3px solid #333;",
                 p(strong("Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., et al."), " (2025). ",
                   "Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges. ",
-                  em("__ ___ ___."))
+                  em("Wetlands Ecology and Management"), " (in press).")
             ),
             
             br(),
@@ -593,12 +595,35 @@ ui <- dashboardPage(
             h3("Contact & Support"),
             p("For questions, bug reports, or suggestions:"),
             p("📧 Email: higuchip@gmail.com"),
-            p("🌐 GitHub: [Repository URL]"),
+            p("🌐 ", 
+              a("GitHub Repository", 
+                href = "https://github.com/higuchip/FloodplainTreeClassification", 
+                target = "_blank")),
             
             br(),
             
             h3("License"),
-            p("___.")
+            p(strong("MIT License")),
+            p("Copyright (c) 2025 Pedro Higuchi"),
+            tags$pre(
+              "Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the 'Software'), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+            )
           )
         )
       )
