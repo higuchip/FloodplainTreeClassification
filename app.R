@@ -118,9 +118,14 @@ ui <- dashboardPage(
             width = 12,
             
             h3("About This Tool"),
-            p("This application implements the classification framework described in:",
-              strong("'Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges'")),
-            p("Published in Wetlands Ecology and Management"),
+            p("This application implements the classification framework described in:"),
+            p(strong("Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., Oliveira, C.V., Alves, D.S., Fortkamp, G., Silva, W.F., Santos, R.F., Silva, A.C., Higuchi, P."), " (2025). ",
+              "Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges. ",
+              em("Wetlands Ecology and Management"), " ", 
+              strong("33"), ", 84. ",
+              a("https://doi.org/10.1007/s11273-025-10098-5", 
+                href = "https://doi.org/10.1007/s11273-025-10098-5", 
+                target = "_blank")),
             
             br(),
             
@@ -587,7 +592,11 @@ ui <- dashboardPage(
             div(style = "background-color: #f0f0f0; padding: 10px; border-left: 3px solid #333;",
                 p(strong("Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., et al."), " (2025). ",
                   "Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges. ",
-                  em("Wetlands Ecology and Management"), " (in press).")
+                  em("Wetlands Ecology and Management"), " ", 
+                  strong("33"), ", 84. ",
+                  a("https://doi.org/10.1007/s11273-025-10098-5", 
+                    href = "https://doi.org/10.1007/s11273-025-10098-5", 
+                    target = "_blank"))
             ),
             
             br(),
