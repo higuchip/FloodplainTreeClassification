@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/R-%3E%3D4.0-blue)](https://www.r-project.org/)
 
-## Overview
 
-Interactive Shiny application accompanying the paper **"Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges"** (Costa et al., 2025, *Wetlands Ecology and Management*, in press).
+## Overview
+Interactive Shiny application accompanying the paper **"Groundwater-based classification of floodplain trees: integrating water table preferences and tolerance ranges"** (Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., Oliveira, C.V., Alves, D.S., Fortkamp, G., Silva, W.F., Santos, R.F., Silva, A.C., Higuchi, P., 2025, *Wetlands Ecology and Management* **33**, 84. https://doi.org/10.1007/s11273-025-10098-5).
 
 This tool implements the hydrological classification framework, enabling researchers and managers to classify tree species based on their adaptation to water table variations in floodplain forests.
 
@@ -16,10 +16,10 @@ This tool implements the hydrological classification framework, enabling researc
 
 If you use this tool in your research, please cite:
 ```
-Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., et al. (2025). 
-Groundwater-based classification of floodplain trees: 
-integrating water table preferences and tolerance ranges. 
-Wetlands Ecology and Management (in press).
+Costa, K.J.S., Cruz, M.J.C., Hassan, V.O.C., Oliveira, C.V., Alves, D.S., Fortkamp, G., Silva, W.F., Santos, R.F.,
+Silva, A.C., Higuchi, P. (2025). Groundwater-based classification of floodplain trees: integrating water table
+preferences and tolerance ranges. Wetlands Ecology and Management 33, 84. https://doi.org/10.1007/s11273-025-10098-5
+
 ```
 
 ## Features
